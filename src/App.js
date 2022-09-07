@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/connect" element={<Preview />} />
+          <Route path="/preview" element={<Preview />} />
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </BrowserRouter>
